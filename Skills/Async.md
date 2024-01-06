@@ -2,11 +2,11 @@
 
 - Theory
   - Event loop
-  - try..catch
+  - try..catch: 🖐️ used
   - Non-blocking
   - Async I/O
   - Thread pool
-  - Pattern Reactor
+  - Pattern Reactor: 🙋 explained
   - CAS operations
   - epoll
   - kqueue
@@ -20,7 +20,7 @@
   - Parallel programming
   - Actor Model
   - Thread
-  - Process
+  - Process: 🙋 explained
 - Async contracts
   - Callbacks
   - Callback-last-error-first
@@ -29,15 +29,15 @@
   - Async/await
   - Future
   - Deferred
-  - Sync generator
+  - Sync generator: 🖐️ used
   - Async Generator
   - Async Iterator
   - Event
   - Coroutine
   - Goroutine
   - Signal
-  - Stream
-  - Chain of responsibility
+  - Stream: 🙋 explained
+  - Chain of responsibility: 🖐️ used
   - Middleware
   - Locks
 - Async adapters and utils
@@ -49,9 +49,9 @@
 - Async abstractions interfaces
   - EventEmitter
   - Observable/Observer
-  - Readable
-  - Writable
-  - Transform
+  - Readable: 🎓 known
+  - Writable: 🎓 known
+  - Transform: 🎓 known
   - Async Pool
   - Async Queue
   - Async Collector
@@ -66,8 +66,8 @@
   - AbortSignal
   - Promise unhandled rejection
   - Promise double resolve
-  - child_process
-  - worker_threads
+  - child_process: 🙋 explained
+  - worker_threads: 🙋 explained
   - Atomics
   - High resolution clock
   - Callback hell
@@ -75,7 +75,7 @@
   - ref() and unref()
   - Error handling in async code
   - Better stack traces with return await
-  - JSON: streaming serialization
+  - JSON: streaming serialization: 🖐️ used
   - promisify
   - callbackify
   - AsyncLocalStorage
