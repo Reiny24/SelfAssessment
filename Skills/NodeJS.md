@@ -1,32 +1,32 @@
 ## Node.js and backend
 
 - Internals and concepts
-  - Strong and weak sides of node.js
+  - Strong and weak sides of node.js: 🎓 known
   - Stateful and stateless servers
   - Nonblocking I/O and slocking code
   - Event loop: phases
   - Event loop: microtasks and macrotasks
   - Garbage collection
   - Node.js LTS schedule
-  - I/O-bound, CPU-bound, memory-bound tasks
+  - I/O-bound, CPU-bound, memory-bound tasks: 🎓 known
   - Interactive applications (close to real-time)
 - Modularity, layers and dependencies
-  - CommonJS modules
-  - ECMAScript modules
-  - node:module
+  - CommonJS modules: 🙋 explained
+  - ECMAScript modules: 🙋 explained
+  - node:module: 🖐️ used
   - Caching in CJS and ESM
   - Modules as singletons
   - Contexts and scripts node:vm
-  - Dependencies: npm, node_modules
-  - Dependencies: package.json and package lock
+  - Dependencies: npm, node_modules: 🖐️ used
+  - Dependencies: package.json and package lock: 🖐️ used
   - Module-based permissions model
   - Isolation with modularity
-  - Dependency injection
+  - Dependency injection 🖐️ used
   - DI containers
   - Coupling and cohesion
   - Framework agnostic approach
 - Environment
-  - Command line arguments
+  - Command line arguments: 🙋 explained
   - Node.js CLI
   - Process-based permissions
   - Graceful shutdown
@@ -35,7 +35,7 @@
 - Internal API
   - Streams API
   - Web Streams API
-  - Crypto API
+  - Crypto API: 👂 heard
   - Password hashing with node:crypto.scrypt
   - Web Crypto API
   - File system API: sync and async
@@ -62,16 +62,16 @@
   - Module node:zlib
 - Application structure and architecture
   - Isolation between layer
-  - Multilayer approach
+  - Multilayer approach: 🎓 known
   - Separation of concerns
   - Inversion of control
-  - Dependency injection
+  - Dependency injection: 🖐️ used
   - GRASP
   - SOLID
-  - GoF patterns
-  - Distributed systems
-  - Highload applications
-  - Clean architecture
+  - GoF patterns: 🖐️ used
+  - Distributed systems: 🎓 known
+  - Highload applications: 🎓 known
+  - Clean architecture: 🎓 known
   - DDD
   - Message Queue
   - CQS
@@ -86,17 +86,17 @@
 - Network
   - IP sticky sessions
   - Endpoint throttling
-  - HTTP(S)
+  - HTTP(S): 👂 heard
   - TCP/SSL
   - UDP
   - TLS
   - Websocket
   - SSE
-  - HTTP/3 (QUIC)
+  - HTTP/3 (QUIC): 👂 heard
   - Long polling
   - REST
   - RPC
-  - Routing
+  - Routing: 🎓 known
   - DoS
   - DDoS
   - XSS
@@ -116,34 +116,34 @@
   - Native test runner
   - Logging
   - Application configuring
-  - Testing
+  - Testing: 🎓 known
   - CI/CD
-  - Readable
-  - Writable
-  - Transform
+  - Readable: 🎓 known
+  - Writable: 🎓 known
+  - Transform: 🎓 known
   - back pressure
-  - Buffer
-  - Console
+  - Buffer: 🙋 explained
+  - Console: 🙋 explained
   - Inspector
-  - Reliability
-  - Quality
-  - Availability
-  - Flexibility
+  - Reliability: 🎓 known
+  - Quality: 🎓 known
+  - Availability: 🎓 known
+  - Flexibility: 🎓 known
 - Data access
   - Data access layer
-  - Repository
+  - Repository: 🖐️ used
   - Active record
   - Query builder
   - Object-Relational Mapping
 - Error handling and debugging
-  - Error
+  - Error: 🎓 known
   - error.cause
   - error.code
   - error.message
   - error.stack
   - How to avoid mixins
   - Error.captureStackTrace
-  - Uncaught exceptions
+  - Uncaught exceptions: 🎓 known
   - Heap dump
   - Debugging tools
   - Flame graph
